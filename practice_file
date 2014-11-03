@@ -1,0 +1,8 @@
+"""
+Fatima Mohamed
+November 3rd, 2014
+PRACTICE CODE
+"""
+name = input("What is your name?")
+age = input("What is your age?")
+print("Hello ", name, ". You are ", age, " correct?")
