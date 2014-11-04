@@ -5,4 +5,8 @@ PRACTICE CODE
 """
 name = input("What is your name?")
 age = input("What is your age?")
-print("Hello ", name, ". You are ", age, " correct?")
+validate = input("Hello " + name + ". You are " + age + " correct?")
+if validate == "yes":
+    print("Great! Let's get on with the rest of the program!")
+else:
+    age = input("What is your age, then?")
